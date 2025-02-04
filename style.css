@@ -26,14 +26,13 @@ body {
 }
 
 .blog-prev-card {
+    width: 100%;
+    max-width: 380px;
+    padding: 1.2rem;
     background-color: white;
     border: 1px solid var(--gray-950);
     border-radius: 15px;
     box-shadow: 9px 9px var(--gray-950);
-}
-
-.blog-prev-card {
-    padding: 1.2rem;
 }
 
 .blog-prev-card-img {
@@ -104,10 +103,4 @@ body {
 
 .blog-prev-card-author-name:hover {
     color: var(--yellow);
-}
-
-@media (min-width: 376px) {
-    .blog-prev-card {
-        max-width: 380px;
-    }
 }
